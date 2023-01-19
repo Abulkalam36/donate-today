@@ -1,0 +1,125 @@
+/* Latop Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* LG  Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .single-item-doate-box p {
+        margin-right: 0px;
+    }
+    .donate-text-left .section-title{
+        text-align: center !important;
+    }
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .single-donate-content {
+        display: block;
+    }
+    .donate-text-left {
+        display: block;
+    }
+    .form-area {
+        width: 100%;
+    }
+    .single-item-doate-box {
+        padding: 20px 20px 36px 20px;
+        text-align: center;
+    }
+    .single-item-doate-box p {
+        margin-right: 0px;
+    }
+    .donate-info ul {
+        gap: 14px;
+    }
+    .donate-text-left .section-title{
+        text-align: center !important;
+    }
+    .donate-img img {
+        width: 100%;
+    }
+}
+
+
+
+/* SM Device :480px. */
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .donate-info ul {
+        display: block;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }
+    .donate-info ul li {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 40px 0;
+    }
+    .single-info {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .single-item-doate-box {
+        padding: 40px 30px 30px 32px;
+        margin-right: 0;
+    }
+    .single-item-doate-box p {
+         margin-right: 0px; 
+    }
+    .single-donate-content {
+        display: block;
+    }
+    .donate-text-left {
+        display: block;
+    }
+    .donate-img img {
+        width: 100%;
+    }
+    .form-area {
+        width: 100%;
+    }
+    .form-bg {
+        padding: 59px 0;
+    }
+    .section-title.section-right {
+        text-align: center !important;
+    }
+    .donate-text-left .section-title {
+        text-align: center !important;
+    }
+    .btn.btn-from {
+        margin-left: 0px; 
+        width: 100%;
+    }
+    .form-bg form input {
+        margin-bottom: 10px;
+        
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+    main{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
